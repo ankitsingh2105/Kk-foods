@@ -1,4 +1,6 @@
+
 import overlaybg from '../assets/overlaybg.png';
+import sidbakery from '../assets/sidbakery.png';
 import bg from '../assets/bg.png';
 import head from '../assets/head.png';
 import cookie1 from '../assets/cookie4.png';
@@ -17,11 +19,12 @@ import menu2 from '../assets/menu2.jpg';
 import menu3 from '../assets/menu3.jpg';
 import menu4 from '../assets/menu4.jpg';
 import menu5 from '../assets/menu5.jpg';
-// eslint-disable-next-line 
+//  eslint-disable-next-line 
 export default {
   nonveg,
   veg,
   overlaybg,
+  sidbakery,
   bg,
   head,
   cookie1 , 
@@ -37,5 +40,6 @@ export default {
 menu2,
 menu3,
 menu4,
-menu5
+menu5,
+// menu1,
 };
