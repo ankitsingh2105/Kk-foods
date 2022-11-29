@@ -1,0 +1,190 @@
+.chnagecolor {
+    background-color: black;
+    color: white;
+    font-family: var(--font-base);
+}
+.about_chef,.location{
+    border: 2px solid gold;
+}
+.about_chef,
+.photo_and_about,
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: var(--font-base);
+    font-weight: bolder;
+}
+.heading_here {
+    border-bottom: 2px solid #FFD700;
+    border-bottom-style: dotted;
+    padding: 12px;
+    font-size: 34px;
+    margin-top: 34px;
+}
+.strong{
+    color: #FFD700;
+}
+
+.chef_name {
+    font-family: var(--font-base);
+    letter-spacing: 2px;
+    font-size: 24px;
+    color: #FFD700;
+    margin-top: 54px;
+    font-weight: bolder;
+}
+
+.chef_photo {
+    margin-top: 34px;
+    width: 349px;
+    height: 250px;
+    border: 3px solid #FFD700;
+    border-style: dotted;
+}
+
+.about_him {
+    margin: 43px;
+    line-height: 23px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+.comma {
+    font-size: 34px;
+    margin-top: -34px;
+}
+
+@media screen and (min-width: 1178px) {
+    .photo_and_about {
+        flex-direction: row;
+        margin-left: 100px;
+    }
+
+    .about_him {
+        font-size: 18px;
+        letter-spacing: 4px;
+        margin: 50px;
+        line-height: 40px;
+    }
+
+    .chef_photo {
+        height: 400px;
+        width: 500px;
+        margin-bottom: 46px;
+    }
+    .chnagecolor{
+        margin-bottom: 23px;
+    }
+}
+
+
+.location_text {
+    font-size: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    border: 3px solid black;
+    border-style: dotted;
+    padding: 12px;
+}
+
+.fa-location-pin {
+    font-size: 110px;
+    color: white;
+    border: 3px solid black;
+    border-radius: 2000px;
+    border-style: dotted;
+    padding: 40px;
+}
+.credits{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 34px;
+    /* display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column; */
+    font-weight: bolder;
+}
+.free , .port{
+    font-size: 18px;
+    margin: 0px 12px 0px 12px;
+}
+.align1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 22px 0px 22px 0px;
+}
+.my_name{
+    border: 2px solid white;
+    padding:3px 5px 3px 5px;
+    color: #FFD700;
+    border-style: dotted;
+    background-color: black;
+    font-size: 19px;
+}
+.loction_icom{
+    font-size: 104px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin-bottom: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.location_image{
+    width: 350px;
+    height: 400px;
+    border: 8px solid #FFD700;
+    margin-bottom: 100px;
+    border-style:dashed;
+    
+}
+.loction_reach_text{
+    margin-top: 9px;
+    font-size: 12px;
+}
+.location {
+    background:linear-gradient(180deg   , rgb(43, 42, 42) , rgb(0, 0, 0) , rgb(53, 50, 50));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.location_text{
+    color: #FFD700;
+    border-color: #FFD700;
+}
+.social_links , .align_socials{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
+}
+.align_socials{
+    flex-direction: column;
+}
+.follow{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 70px;
+}
+.social_icons{
+    list-style: none;
+    margin-top: -30px;
+    margin-bottom: 43px;
+    margin: -30px 36px 43px 36px;
+    font-size: 33px;
+}
+.fa-instagram{
+    color: rgb(248, 5, 146);
+}
+.fa-whatsapp{
+    color: greenyellow;
+}
+.fa-facebook{
+    color: rgb(57, 57, 219);
+}
+

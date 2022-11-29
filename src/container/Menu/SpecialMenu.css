@@ -1,0 +1,125 @@
+
+.change{
+    border: 2px solid gold;
+    background: linear-gradient(180deg, rgb(48, 48, 46) , rgb(0, 0, 0) , rgb(53, 52, 47),  rgb(0, 0, 0),  rgb(19, 19, 19), rgb(0, 0, 0) , rgb(50, 50, 47));
+}
+.container{
+    /* background-color: black; */
+    color: var(--color-golden);
+    color: #FFD700;
+    font-family: var(--font-base);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h3{
+    color: white;
+    font-size: 35px;
+    margin-top: 70px;
+    text-decoration: underline;
+}
+.head{
+    font-size: 29px;
+}
+
+
+/*  inside constent  */
+
+.cookies1{
+    font-size: 40px;
+    color: white;
+    margin-top: 74px;
+}
+.type{
+    color: white;
+    font-size: 15px;
+}
+.name{
+    font-size: 25px;
+    margin-top: 43px;
+}
+
+@media screen and (max-width: 1194px) {
+    .menu{
+        margin-top: 74px;
+        border: 2px solid white;
+        flex-direction: column;
+    }
+    #video1{
+        margin: 18px 82px -97px 82px;
+    }
+    .lineone{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .lineonee{
+        margin-top: 97px;
+        width: 100%;
+        
+  }
+  .cookies1{
+    margin-top: 43px;
+  }
+  .menu2{
+    margin-bottom: 45px;
+  }
+}
+@media screen and (max-width: 856px) {
+    .head{
+        font-size: 23px;
+    }
+}
+@media screen and (max-width: 561px) {
+    #video1{
+    margin: 18px 16px -97px 16px;
+    }
+}
+@media screen and (max-width: 340px) {
+    #video1{
+    margin: 18px 5px -97px 5px;
+    }
+    .head{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:  428px) {
+    #video1{
+        margin :61px 16px 25px 16px;
+    }
+
+}
+.additional_info{
+    margin: 32px;font-size: 20px;
+    line-height: 42px;
+    letter-spacing: 2px;
+}
+.icon{
+    font-size: 73px;
+    margin-bottom: 56px;
+}
+.fa-pot-food{
+    color: white;
+}
+.imgone{
+    height: 100px;
+    width: 100px;
+    border-radius: 314px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media screen and (min-width: 1194px) {
+    .additional_info{
+        margin: 30px 300px 0px 300px;
+        text-align: center;
+    }
+  }
