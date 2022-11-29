@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutUs, Header, SpecialMenu, Chef, Gallery } from './container';
+import { AboutUs, Header, SpecialMenu, Chef } from './container';
 import { Navbar } from './components';
 import { useState, useEffect } from 'react';
 import './App.css';
