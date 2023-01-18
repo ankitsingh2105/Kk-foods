@@ -16,7 +16,7 @@ export default function Navbar() {
 
       <nav className='app__navbar '>
         <div className="app__navbar-logo align2">
-          <img src={images.head} alt="this" />
+          <img loading="lazy"src={images.head} alt="this" />
           <small >Haldwani</small>
         </div>
 

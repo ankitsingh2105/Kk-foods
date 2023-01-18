@@ -16,7 +16,7 @@ const Header = () => (
       <button type='button' className='custom__button' >Explore More</button>
     </div>
     <div className="">
-      <img className='Top_img' src={images.sidbakery} alt="" />
+      <img loading="lazy"className='Top_img' src={images.sidbakery} alt="" />
     </div>
   </div>
 );

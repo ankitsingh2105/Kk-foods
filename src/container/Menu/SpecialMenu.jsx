@@ -13,7 +13,7 @@ const SpecialMenu = () => (
         <div className="menu1">
           <div className="item">
             <h3 className='cookies1'>Vegetarian Corner</h3>
-            <img className='imgone' src={images.veg} alt="" /> 
+            <img loading="lazy"className='imgone' src={images.veg} alt="" /> 
           </div>
             <div className="specility">
                   <ul className="specility-cookies">
@@ -78,14 +78,14 @@ const SpecialMenu = () => (
 
         <hr className="lineonee" />
         <div className="image">
-        <video autoPlay loop muted src={images.cookie3} type="video/mp4" id='video1' />
+        <img loading="lazy" src={images.cookie3} id='video1' alt="" />
         </div>
 
         <hr className="lineonee" />
         <div className="menu2">
           <div className="item">
         <h3 className='cookies1'>Non - Vegetarian</h3>
-        <img className='imgone' src={images.nonveg} alt="" />
+        <img loading="lazy"className='imgone' src={images.nonveg} alt="" />
           </div>
             <div className="specility">
                   <ul className="specility-cookies">

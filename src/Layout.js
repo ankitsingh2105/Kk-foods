@@ -1,38 +1,22 @@
-import React from 'react'
-import { AboutUs, Header, SpecialMenu, Chef } from './container';
+import React, { lazy, Suspense } from 'react'
 import { Navbar } from './components';
-import { useState, useEffect } from 'react';
 import './App.css';
-import { images } from './constants';
-export default function Layout(props) {
-    const [showVideo, setShowVideo] = useState(true);
-    useEffect(
-        () => {
-            let timer1 = setTimeout(() => setShowVideo(false), 2500);
-            return () => {
-                clearTimeout(timer1);
-            };
-        },
-        []
-    );
+import SyncLoader from "react-spinners/SyncLoader";
+const AboutUs = lazy(() => import("./container/AboutUs/AboutUs"));
+const Header = lazy(() => import("./container/Header/Header"));
+const SpecialMenu = lazy(() => import("./container/Menu/SpecialMenu"));
+const Chef = lazy(() => import("./container/Chef/Chef"));
+export default function Layout() {
     return (
         <>
-            {showVideo ? (
-                <>
-                    <div className="align_image_logo">
-                        <img className="logo_video2" src={images.gif} alt="..loading" />
-                        <div></div>
-                    </div>
-                </>
-            ) : (
-                <>
-                    <Navbar />
-                    <Header />
-                    <AboutUs />
-                    <SpecialMenu />
-                    <Chef />
-                </>
-            )}
+            <Suspense className='App' fallback={<div className='align' style={{ margin: "100px 0px" }} >
+                <SyncLoader size={'20px'} color='yellow' className='loader App' /></div>}>
+                <Navbar />
+                <Header />
+                <AboutUs />
+                <SpecialMenu />
+                <Chef />
+            </Suspense>
         </>
     )
 }

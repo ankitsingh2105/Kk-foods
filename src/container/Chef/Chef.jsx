@@ -14,7 +14,7 @@ const Chef = () => (
         </div>
       </div>
         <div className="photo_and_about">
-          <img className='chef_photo' src={images.chefimg} alt="" />
+          <img loading="lazy"className='chef_photo' src={images.chefimg} alt="" />
         <div className="about_him">
             <i className="comma">"</i> &nbsp;&nbsp; Our chef <strong className='strong' >Mr.Himanshu Bisht</strong> started his journey as a junior chef with the known hotel chain ITC HOTELS located 
             in Jodhpur Rajasthan. After working for some time there he continued his journey with world-renowned, The Taj Hotels
@@ -38,7 +38,7 @@ const Chef = () => (
         </div>
         <div className="location_imag">
           <a href="https://www.google.co.in/maps/place/K+K+Food+(A+Family+Restaurant)/@29.2270393,79.493065,17z/data=!3m1!4b1!4m5!3m4!1s0x39a09bf6e57d734f:0xe7a035148189c5ca!8m2!3d29.2270393!4d79.4952537" target="_blank" rel="noopener noreferrer">
-        <img className="location_image" src={images.location} alt="" />
+        <img loading="lazy"className="location_image" src={images.location} alt="" />
           </a>
         </div>
 

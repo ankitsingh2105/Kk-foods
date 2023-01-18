@@ -99,12 +99,9 @@
 }
 .credits{
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 34px;
-    /* display: flex;
-    align-items: center;
-    justify-items: center;
-    flex-direction: column; */
+    margin-top: 15px;
     font-weight: bolder;
+    margin-bottom: 40px;
 }
 .free , .port{
     font-size: 18px;

@@ -10,7 +10,7 @@
     font-family: var(--font-base);
     color: var(--color-golden) ; 
     color: #FFD700;
-    letter-spacing: 8px;
+    letter-spacing: 4px;
     font-size: 58px;
 }
 .app__wrapper {
@@ -26,7 +26,7 @@
     font-weight: 400;
     letter-spacing: 3px;
     line-height: 28px;
-    font-size: 12px;
+    font-size: 14px;
 }
 .Top_img{
   width: 350px;
@@ -39,14 +39,14 @@
         flex-direction: row;
     }
     .app__header-h1{
-        font-size:70px;
+        font-size:76px;
     }
     .Top_img{
         width:  440px;
         height: 500px;
     }
     .p__opensans1{
-        font-size: 13px;
+        font-size: 16px;
         text-align: justify;
     }
     .app__wrapper_info{
