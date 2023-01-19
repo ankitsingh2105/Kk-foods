@@ -9,8 +9,8 @@ const Chef = lazy(() => import("./container/Chef/Chef"));
 export default function Layout() {
     return (
         <>
-            <Suspense className='App' fallback={<div className='align' style={{ margin: "100px 0px" }} >
-                <SyncLoader size={'20px'} color='yellow' className='loader App' /></div>}>
+            <Suspense className='App' fallback={<div className='align' style={{ margin: "250px 0px" }} >
+                <SyncLoader size={'20px'} color='black' className='loader App' /></div>}>
                 <Navbar />
                 <Header />
                 <AboutUs />
