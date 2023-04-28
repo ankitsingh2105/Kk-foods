@@ -6,6 +6,7 @@ const AboutUs = lazy(() => import("./container/AboutUs/AboutUs"));
 const Header = lazy(() => import("./container/Header/Header"));
 const SpecialMenu = lazy(() => import("./container/Menu/SpecialMenu"));
 const Chef = lazy(() => import("./container/Chef/Chef"));
+const Reviews = lazy(() => import("./components/Reviews/Review"));
 export default function Layout() {
     return (
         <>
@@ -15,6 +16,7 @@ export default function Layout() {
                 <Header />
                 <AboutUs />
                 <SpecialMenu />
+                <Reviews/>
                 <Chef />
             </Suspense>
         </>
